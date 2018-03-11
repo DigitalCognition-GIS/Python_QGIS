@@ -1,0 +1,11 @@
+TEMPLATE = app
+QT -= gui
+QT += xml
+CONFIG += warn_on release
+CONFIG -= android_install
+target.path = /home/dhankar/anaconda2/bin
+INSTALLS += target
+INCLUDEPATH += /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/pyrcc
+VPATH = /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/pyrcc
+HEADERS = rcc.h
+SOURCES = main.cpp rcc.cpp

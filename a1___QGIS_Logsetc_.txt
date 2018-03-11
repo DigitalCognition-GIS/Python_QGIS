@@ -1,0 +1,1377 @@
+ping -c 4 google.co.in
+ping -c 4 http://www.riverbankcomputing.com/software/pyqt/download
+
+
+## Probable Solution 
+https://stackoverflow.com/questions/43700790/pyqt-static-build-fails-at-make
+
+
+######### FARTQGIS ----------------
+
+g++ -c -pipe -fno-exceptions -O2 -std=gnu++0x -Wall -W -D_REENTRANT -fPIC -DQT_DISABLE_DEPRECATED_BEFORE=0x04ffff -DSIP_PROTECTED_IS_PUBLIC -Dprotected=public -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKITWIDGETS_LIB -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I. -I/home/dhankar/anaconda2/include/python2.7 -I/home/dhankar/anaconda2/include/qt -I/home/dhankar/anaconda2/include/qt/QtWebKitWidgets -I/home/dhankar/anaconda2/include/qt/QtWebKit -I/home/dhankar/anaconda2/include/qt/QtWidgets -I/home/dhankar/anaconda2/include/qt/QtGui -I/home/dhankar/anaconda2/include/qt/QtNetwork -I/home/dhankar/anaconda2/include/qt/QtCore -I. -I/home/dhankar/anaconda2/mkspecs/linux-g++ -o sipQtWebKitQWebFrame.o sipQtWebKitQWebFrame.cpp
+sip/QtGui/qprinter.sip:34:22: fatal error: qprinter.h: No such file or directory
+compilation terminated.
+Makefile:3450: recipe for target 'sipQtWebKitQWebFrame.o' failed
+make[1]: *** [sipQtWebKitQWebFrame.o] Error 1
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtWebKit'
+Makefile:577: recipe for target 'sub-QtWebKit-make_first-ordered' failed
+make: *** [sub-QtWebKit-make_first-ordered] Error 2
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ make
+cd QtCore/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtCore/QtCore.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtCore'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtCore'
+cd QtGui/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtGui/QtGui.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtGui'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtGui'
+cd QtHelp/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtHelp/QtHelp.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtHelp'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtHelp'
+cd QtMultimedia/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtMultimedia/QtMultimedia.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtMultimedia'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtMultimedia'
+cd QtNetwork/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtNetwork/QtNetwork.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtNetwork'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtNetwork'
+cd QtScript/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtScript/QtScript.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtScript'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtScript'
+cd QtScriptTools/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtScriptTools/QtScriptTools.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtScriptTools'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtScriptTools'
+cd QtXml/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtXml/QtXml.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtXml'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtXml'
+cd QtOpenGL/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtOpenGL/QtOpenGL.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtOpenGL'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtOpenGL'
+cd QtSql/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtSql/QtSql.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtSql'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtSql'
+cd QtSvg/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtSvg/QtSvg.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtSvg'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtSvg'
+cd QtTest/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtTest/QtTest.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtTest'
+make[1]: Nothing to be done for 'first'.
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtTest'
+cd QtWebKit/ && ( test -e Makefile || /home/dhankar/anaconda2/bin/qmake /media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtWebKit/QtWebKit.pro -o Makefile ) && make -f Makefile 
+make[1]: Entering directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtWebKit'
+g++ -c -pipe -fno-exceptions -O2 -std=gnu++0x -Wall -W -D_REENTRANT -fPIC -DQT_DISABLE_DEPRECATED_BEFORE=0x04ffff -DSIP_PROTECTED_IS_PUBLIC -Dprotected=public -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKITWIDGETS_LIB -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -I. -I/home/dhankar/anaconda2/include/python2.7 -I/home/dhankar/anaconda2/include/qt -I/home/dhankar/anaconda2/include/qt/QtWebKitWidgets -I/home/dhankar/anaconda2/include/qt/QtWebKit -I/home/dhankar/anaconda2/include/qt/QtWidgets -I/home/dhankar/anaconda2/include/qt/QtGui -I/home/dhankar/anaconda2/include/qt/QtNetwork -I/home/dhankar/anaconda2/include/qt/QtCore -I. -I/home/dhankar/anaconda2/mkspecs/linux-g++ -o sipQtWebKitQWebFrame.o sipQtWebKitQWebFrame.cpp
+sip/QtGui/qprinter.sip:34:22: fatal error: qprinter.h: No such file or directory
+compilation terminated.
+Makefile:3450: recipe for target 'sipQtWebKitQWebFrame.o' failed
+make[1]: *** [sipQtWebKitQWebFrame.o] Error 1
+make[1]: Leaving directory '/media/dhankar/Dhankar_1/a1_18/a1_______QGIS/QtWebKit'
+Makefile:577: recipe for target 'sub-QtWebKit-make_first-ordered' failed
+make: *** [sub-QtWebKit-make_first-ordered] Error 2
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+#
+
+
+
+#### FARTQGIS -----------
+## https://www.qgis.org/en/site/forusers/alldownloads.html#debian-ubuntu
+## https://qgis.org/en/site/forusers/alldownloads.html#Ubuntu
+## https://trac.osgeo.org/ubuntugis/wiki/UbuntuGISRepository
+## https://gis.stackexchange.com/questions/133033/installing-latest-qgis-version-on-ubuntu
+## https://launchpad.net/~ubuntugis/+archive/ubuntu/ppa ## Laterz 
+##
+##
+##
+
+
+####### FARTQGIS ----- 
+
+Couldn't load PyQt.
+Python support will be disabled.
+
+
+Traceback (most recent call last):
+  File "", line 1, in 
+ImportError: No module named PyQt4
+
+
+Python version:
+2.7.12 (default, Nov 20 2017, 18:23:56) 
+[GCC 5.4.0 20160609]
+
+QGIS version:
+2.14.11-Essen 'Essen', exported
+
+Python path:
+['/usr/share/qgis/python', u'/home/dhankar/.qgis2/python', u'/home/dhankar/.qgis2/python/plugins', '/usr/share/qgis/python/plugins', '/home/dhankar/anaconda2/lib/python2.7', '/home/dhankar/anaconda2/lib/python2.7/plat-x86_64-linux-gnu', '/home/dhankar/anaconda2/lib/python2.7/lib-tk', '/home/dhankar/anaconda2/lib/python2.7/lib-old', '/home/dhankar/anaconda2/lib/python2.7/lib-dynload', '/home/dhankar/.local/lib/python2.7/site-packages', '/home/dhankar/anaconda2/lib/python2.7/site-packages', '/home/dhankar/anaconda2/lib/python2.7/site-packages/Sphinx-1.4.6-py2.7.egg', '/home/dhankar/anaconda2/lib/python2.7/site-packages/distribute-0.7.3-py2.7.egg', '/home/dhankar/anaconda2/lib/python2.7/site-packages/dlib-19.7.99-py2.7-linux-x86_64.egg', '/home/dhankar/anaconda2/lib/python2.7/site-packages/setuptools-27.2.0-py2.7.egg']
+
+
+####### FARTQGIS ----- 
+
+
+pip3 install pyqt5
+
+#### FARTQGIS -----------
+#########
+##
+#
+How do I refer to QGIS?
+
+QGIS is spelled in all caps. We have various subprojects of the QGIS project and it will help to avoid confusion if you refer to each by its name:
+QGIS Library - this is the C++ library that contains the core logic that is used to build the QGIS user interface and other applications.
+QGIS Desktop - this is the desktop application that you know and love so much :-).
+QGIS Server - this is a server-side application based on the QGIS Library that will serve up your .qgs projects using OGC standard protocols.
+
+##
+
+Add the current date to a map layout
+
+You can add a current date variable to your map layout. Create a regular text label and add the string $CURRENT_DATE(yyyy-MM-dd) to the text box. See the QDate::toString format documentation for the possible date formats.
+
+##
+
+Moving Elements and Maps in the Print Composer
+
+In the print composer tool bar you can find two buttons for moving elements. The left one (right arrow icon) selects and moves elements in the layout. After selecting the element with this tool you can also move them around with the arrow keys. For accurate positioning use the Position and Size section, which can be found in the tab Item Properties -> Position and Size. The other move tool (map canvas icon with right arrow) allows one to move the map content within a map frame.
+
+##
+Lock an element in the layout view
+
+By left clicking an element in the layout view you can select it, by right clicking an element you can lock it. A lock symbol will appear in the upper left corner of the selected element. This prevents the element from accidentally being moved with the mouse. While in a locked state, you cannot move an element with the mouse but you can still move it with the arrow keys or by absolutely positioning it by setting its Position and Size.
+
+##
+
+
+
+
+
+
+How do I use software from a PPA?
+
+To start installing and using software from a Personal Package Archive, you first need to tell Ubuntu where to find the PPA.
+
+Important: The contents of Personal Package Archives are not checked or monitored. You install software from them at your own risk.
+
+If you're using the most recent version of Ubuntu (or any version from Ubuntu 9.10 onwards), you can add a PPA to your system with a single line in your terminal.
+
+Step 1: On the PPA's overview page, look for the heading that reads Adding this PPA to your system. Make a note of the PPA's location, which looks like:
+
+ppa:gwibber-daily/ppa
+
+Step 2: Open a terminal and enter:
+
+sudo add-apt-repository ppa:user/ppa-name
+
+Replace ppa:user/ppa-name with the PPA's location that you noted above.
+Screen shot of a terminal with the sudo add-apt-repoistory line
+
+Your system will now fetch the PPA's key. This enables your Ubuntu system to verify that the packages in the PPA have not been interfered with since they were built.
+Screen shot of a system retrieving the PPA details
+
+Step 3: Now, as a one-off, you should tell your system to pull down the latest list of software from each archive it knows about, including the PPA you just added:
+
+sudo apt-get update
+
+Now you're ready to start installing software from the PPA!
+
+Read more about Personal Package Archives in our help wiki.
+
+
+
+#### FART ---- 
+
+Install QGIS on Ubuntu 16.04 xenial 
+#
+
+#Step-1 
+#
+# Source -- https://trac.osgeo.org/ubuntugis/wiki/UbuntuGISRepository
+#
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:ubuntugis/ppa
+
+
+https://askubuntu.com/questions/230766/how-lsb-module-affects-system-and-can-be-made-available-to-the-system
+
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ lsb_release -r
+Release:	16.04
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.1 LTS
+Release:	16.04
+Codename:	xenial
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ lsb_release -b
+Usage: lsb_release [options]
+
+lsb_release: error: no such option: -b
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ lsb_release -h
+Usage: lsb_release [options]
+
+Options:
+  -h, --help         show this help message and exit
+  -v, --version      show LSB modules this system supports
+  -i, --id           show distributor ID
+  -d, --description  show description of this distribution
+  -r, --release      show release number of this distribution
+  -c, --codename     show code name of this distribution
+  -a, --all          show all of the above information
+  -s, --short        show requested information in short format
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ lsb_release -d
+Description:	Ubuntu 16.04.1 LTS
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ lsb_release -i
+Distributor ID:	Ubuntu
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ lsb_release -v
+No LSB modules are available.
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ # UBUNTU dropped Support for LSB Modules in 2015 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ # I have 16.04 Xenial - released 2016 , thus NO LAS Modules 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ # I have 16.04 Xenial - released 2016 , thus NO LSB Modules 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ # https://en.wikipedia.org/wiki/Linux_Standard_Base#cite_note-22
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+
+#### FART --- 
+
+###
+#
+#qgis
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ sudo add-apt-repository ppa:ubuntugis/ppa
+ Official stable UbuntuGIS packages.
+
+
+ More info: https://launchpad.net/~ubuntugis/+archive/ubuntu/ppa
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+gpg: keyring `/tmp/tmpsqj58_bu/secring.gpg' created
+gpg: keyring `/tmp/tmpsqj58_bu/pubring.gpg' created
+gpg: requesting key 314DF160 from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpsqj58_bu/trustdb.gpg: trustdb created
+gpg: key 314DF160: public key "Launchpad ubuntugis-stable" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ sudo apt-get update
+Ign:1 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial InRelease
+Ign:2 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial Release                                                  
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                      
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                       
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                        
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                   
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                      
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                               
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                  
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                               
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                                  
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                             
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                                
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                                         
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                            
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                                         
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                          
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                                  
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                             
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                                
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                                         
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                            
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                                         
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                          
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                                  
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                             
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                                
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                                         
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                            
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                                         
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                          
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                                  
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                             
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                                
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                                         
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                            
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                                         
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                          
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Err:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+  Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:17 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0 InRelease                                                                           
+Ign:18 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 InRelease                                                                           
+Ign:19 http://dl.google.com/linux/chrome/deb stable InRelease                             
+Hit:20 http://archive.canonical.com/ubuntu xenial InRelease                               
+Hit:21 http://archive.ubuntu.com/ubuntu xenial InRelease                                  
+Ign:22 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0 Release                  
+Get:23 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial InRelease [23.8 kB]           
+Get:24 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 Release [3,457 B]                           
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages                                                     
+Get:26 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]                                                                            
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages                                                            
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages                                                             
+Hit:29 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease                                                                             
+Hit:30 http://apt.postgresql.org/pub/repos/apt xenial-pgdg InRelease                                                                                 
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN                                                    
+Get:32 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]                                                                     
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en                                      
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata                                
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons                                    
+Get:36 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 Packages [42.9 kB]                                         
+Get:37 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 Release.gpg [801 B]                                              
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages                                                    
+Hit:38 http://dl.google.com/linux/chrome/deb stable Release                                                                      
+Get:39 http://archive.ubuntu.com/ubuntu xenial-security InRelease [102 kB]                                 
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages                             
+Hit:40 https://cran.rstudio.com/bin/linux/ubuntu xenial/ InRelease                                                     
+Hit:41 https://cli-assets.heroku.com/branches/stable/apt ./ InRelease                                                   
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages
+Get:42 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [317 kB]                                                           
+Err:37 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 Release.gpg                                                                   
+  The following signatures were invalid: KEYEXPIRED 1515625755
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN                                                  
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en                        
+Get:44 http://archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [229 kB]      
+Get:45 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main i386 Packages [43.0 kB]                                                     
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata                                                    
+Get:46 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [191 kB]                                                       
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons                                                       
+Get:47 http://archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [272 kB]                                                          
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages                                                           
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages                                                            
+Get:48 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5,892 B]                                          
+Get:49 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3,328 B]                                                        
+Get:50 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [4,696 B]                                                    
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages                                                             
+Err:51 https://deb.opera.com/opera-stable stable InRelease                                                      
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D615560BA5C7FF72
+Get:52 http://archive.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [67.5 kB]                
+Ign:53 https://artifacts.elastic.co/packages/5.x/apt stable InRelease                               
+Get:54 http://archive.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [67.9 kB]
+Get:55 http://archive.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [51.4 kB]
+Get:56 http://archive.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [80.2 kB]                                  
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN                                  
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en
+Get:57 https://artifacts.elastic.co/packages/5.x/apt stable Release [4,360 B]
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages        
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages
+Get:58 https://artifacts.elastic.co/packages/5.x/apt stable Release.gpg [473 B]
+Ign:58 https://artifacts.elastic.co/packages/5.x/apt stable Release.gpg                                    
+Get:59 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main Translation-en [17.4 kB]              
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages
+Hit:60 https://artifacts.elastic.co/packages/5.x/apt stable/main amd64 Packages
+Ign:60 https://artifacts.elastic.co/packages/5.x/apt stable/main amd64 Packages
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata
+Hit:61 https://artifacts.elastic.co/packages/5.x/apt stable/main i386 Packages
+Ign:61 https://artifacts.elastic.co/packages/5.x/apt stable/main i386 Packages
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons
+Err:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages
+  404  Not Found
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages
+Hit:60 https://artifacts.elastic.co/packages/5.x/apt stable/main amd64 Packages
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN
+Hit:61 https://artifacts.elastic.co/packages/5.x/apt stable/main i386 Packages
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons
+Hit:62 https://cran.csiro.au/bin/linux/ubuntu xenial/ InRelease
+Fetched 1,731 kB in 4s (350 kB/s)
+AppStream cache update completed, but some metadata was ignored due to errors.
+Reading package lists... Done
+W: The repository 'cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0 Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 Release: The following signatures were invalid: KEYEXPIRED 1515625755
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://deb.opera.com/opera-stable stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D615560BA5C7FF72
+W: GPG error: https://artifacts.elastic.co/packages/5.x/apt stable Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D27D666CD88E42B4
+W: The repository 'https://artifacts.elastic.co/packages/5.x/apt stable Release' is not signed.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: Failed to fetch https://deb.opera.com/opera-stable/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D615560BA5C7FF72
+E: Failed to fetch cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719)/dists/xenial/main/binary-amd64/Packages  Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs
+E: Failed to fetch http://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.0/multiverse/binary-amd64/Packages  404  Not Found
+W: Failed to fetch http://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/Release.gpg  The following signatures were invalid: KEYEXPIRED 1515625755
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+
+
+#### FART ----------
+Unpacking python-pycurl (7.43.0-1ubuntu1) ...
+Selecting previously unselected package python-software-properties.
+Preparing to unpack .../python-software-properties_0.96.20.7_all.deb ...
+Unpacking python-software-properties (0.96.20.7) ...
+Setting up python-apt (1.1.0~beta1ubuntu0.16.04.1) ...
+Setting up python-pycurl (7.43.0-1ubuntu1) ...
+Setting up python-software-properties (0.96.20.7) ...
+
+
+
+#### FARTQGIS ----------
+
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ sudo add-apt-repository ppa:ubuntugis/ppa
+ Official stable UbuntuGIS packages.
+
+
+ More info: https://launchpad.net/~ubuntugis/+archive/ubuntu/ppa
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+gpg: keyring `/tmp/tmpsqj58_bu/secring.gpg' created
+gpg: keyring `/tmp/tmpsqj58_bu/pubring.gpg' created
+gpg: requesting key 314DF160 from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpsqj58_bu/trustdb.gpg: trustdb created
+gpg: key 314DF160: public key "Launchpad ubuntugis-stable" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+
+
+
+
+
+
+#### FART ---- 
+
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ sudo add-apt-repository ppa:ubuntugis/ppa
+ Official stable UbuntuGIS packages.
+
+
+ More info: https://launchpad.net/~ubuntugis/+archive/ubuntu/ppa
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+gpg: keyring `/tmp/tmpsqj58_bu/secring.gpg' created
+gpg: keyring `/tmp/tmpsqj58_bu/pubring.gpg' created
+gpg: requesting key 314DF160 from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpsqj58_bu/trustdb.gpg: trustdb created
+gpg: key 314DF160: public key "Launchpad ubuntugis-stable" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ sudo apt-get update
+Ign:1 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial InRelease
+Ign:2 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial Release                                                  
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                      
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                       
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                        
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                   
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                      
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                               
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                  
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                               
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                                  
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                             
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                                
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                                         
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                            
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                                         
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                          
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                                  
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                             
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                                
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                                         
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                            
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                                         
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                          
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                                  
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                             
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                                
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                                         
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                            
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                                         
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                          
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Ign:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:5 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main all Packages                                                  
+Ign:6 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en_IN                                             
+Ign:7 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main Translation-en                                                
+Ign:8 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 DEP-11 Metadata                                         
+Ign:9 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main DEP-11 64x64 Icons                                            
+Ign:10 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 Packages                                         
+Ign:11 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted i386 Packages                                          
+Ign:12 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted all Packages                                           
+Ign:13 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en_IN                                      
+Ign:14 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted Translation-en                                         
+Ign:15 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted amd64 DEP-11 Metadata                                  
+Ign:16 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/restricted DEP-11 64x64 Icons                                     
+Err:3 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main amd64 Packages                                                
+  Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs
+Ign:4 cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial/main i386 Packages                                                 
+Ign:17 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0 InRelease                                                                           
+Ign:18 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 InRelease                                                                           
+Ign:19 http://dl.google.com/linux/chrome/deb stable InRelease                             
+Hit:20 http://archive.canonical.com/ubuntu xenial InRelease                               
+Hit:21 http://archive.ubuntu.com/ubuntu xenial InRelease                                  
+Ign:22 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0 Release                  
+Get:23 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial InRelease [23.8 kB]           
+Get:24 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 Release [3,457 B]                           
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages                                                     
+Get:26 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]                                                                            
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages                                                            
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages                                                             
+Hit:29 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease                                                                             
+Hit:30 http://apt.postgresql.org/pub/repos/apt xenial-pgdg InRelease                                                                                 
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN                                                    
+Get:32 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]                                                                     
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en                                      
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata                                
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons                                    
+Get:36 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 Packages [42.9 kB]                                         
+Get:37 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 Release.gpg [801 B]                                              
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages                                                    
+Hit:38 http://dl.google.com/linux/chrome/deb stable Release                                                                      
+Get:39 http://archive.ubuntu.com/ubuntu xenial-security InRelease [102 kB]                                 
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages                             
+Hit:40 https://cran.rstudio.com/bin/linux/ubuntu xenial/ InRelease                                                     
+Hit:41 https://cli-assets.heroku.com/branches/stable/apt ./ InRelease                                                   
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages
+Get:42 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [317 kB]                                                           
+Err:37 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 Release.gpg                                                                   
+  The following signatures were invalid: KEYEXPIRED 1515625755
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN                                                  
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en                        
+Get:44 http://archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [229 kB]      
+Get:45 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main i386 Packages [43.0 kB]                                                     
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata                                                    
+Get:46 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [191 kB]                                                       
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons                                                       
+Get:47 http://archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [272 kB]                                                          
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages                                                           
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages                                                            
+Get:48 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5,892 B]                                          
+Get:49 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3,328 B]                                                        
+Get:50 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [4,696 B]                                                    
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages                                                             
+Err:51 https://deb.opera.com/opera-stable stable InRelease                                                      
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D615560BA5C7FF72
+Get:52 http://archive.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [67.5 kB]                
+Ign:53 https://artifacts.elastic.co/packages/5.x/apt stable InRelease                               
+Get:54 http://archive.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [67.9 kB]
+Get:55 http://archive.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [51.4 kB]
+Get:56 http://archive.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [80.2 kB]                                  
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN                                  
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en
+Get:57 https://artifacts.elastic.co/packages/5.x/apt stable Release [4,360 B]
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages        
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages
+Get:58 https://artifacts.elastic.co/packages/5.x/apt stable Release.gpg [473 B]
+Ign:58 https://artifacts.elastic.co/packages/5.x/apt stable Release.gpg                                    
+Get:59 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main Translation-en [17.4 kB]              
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons
+Ign:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages
+Hit:60 https://artifacts.elastic.co/packages/5.x/apt stable/main amd64 Packages
+Ign:60 https://artifacts.elastic.co/packages/5.x/apt stable/main amd64 Packages
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata
+Hit:61 https://artifacts.elastic.co/packages/5.x/apt stable/main i386 Packages
+Ign:61 https://artifacts.elastic.co/packages/5.x/apt stable/main i386 Packages
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons
+Err:25 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 Packages
+  404  Not Found
+Ign:27 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse i386 Packages
+Ign:28 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse all Packages
+Hit:60 https://artifacts.elastic.co/packages/5.x/apt stable/main amd64 Packages
+Ign:31 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en_IN
+Hit:61 https://artifacts.elastic.co/packages/5.x/apt stable/main i386 Packages
+Ign:33 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse Translation-en
+Ign:34 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse amd64 DEP-11 Metadata
+Ign:35 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0/multiverse DEP-11 64x64 Icons
+Hit:62 https://cran.csiro.au/bin/linux/ubuntu xenial/ InRelease
+Fetched 1,731 kB in 4s (350 kB/s)
+AppStream cache update completed, but some metadata was ignored due to errors.
+Reading package lists... Done
+W: The repository 'cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719) xenial Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.0 Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 Release: The following signatures were invalid: KEYEXPIRED 1515625755
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://deb.opera.com/opera-stable stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D615560BA5C7FF72
+W: GPG error: https://artifacts.elastic.co/packages/5.x/apt stable Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D27D666CD88E42B4
+W: The repository 'https://artifacts.elastic.co/packages/5.x/apt stable Release' is not signed.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: Failed to fetch https://deb.opera.com/opera-stable/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D615560BA5C7FF72
+E: Failed to fetch cdrom://Ubuntu 16.04.1 LTS _Xenial Xerus_ - Release amd64 (20160719)/dists/xenial/main/binary-amd64/Packages  Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs
+E: Failed to fetch http://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.0/multiverse/binary-amd64/Packages  404  Not Found
+W: Failed to fetch http://repo.mongodb.org/apt/ubuntu/dists/xenial/mongodb-org/3.4/Release.gpg  The following signatures were invalid: KEYEXPIRED 1515625755
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+
+
+
+
+
+
+
+
+
+
+###### FARTQGIS--------
+#
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ sudo apt-get install qgis python-qgis qgis-plugin-grass
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libpng16-16 linux-headers-4.4.0-101 linux-headers-4.4.0-101-generic linux-headers-4.4.0-103 linux-headers-4.4.0-103-generic
+  linux-headers-4.4.0-104 linux-headers-4.4.0-104-generic linux-headers-4.4.0-109 linux-headers-4.4.0-109-generic linux-headers-4.4.0-93
+  linux-headers-4.4.0-93-generic linux-headers-4.4.0-96 linux-headers-4.4.0-96-generic linux-headers-4.4.0-97 linux-headers-4.4.0-97-generic
+  linux-headers-4.4.0-98 linux-headers-4.4.0-98-generic linux-image-4.4.0-101-generic linux-image-4.4.0-103-generic linux-image-4.4.0-104-generic
+  linux-image-4.4.0-109-generic linux-image-4.4.0-93-generic linux-image-4.4.0-96-generic linux-image-4.4.0-97-generic linux-image-4.4.0-98-generic
+  linux-image-extra-4.4.0-101-generic linux-image-extra-4.4.0-103-generic linux-image-extra-4.4.0-104-generic linux-image-extra-4.4.0-109-generic
+  linux-image-extra-4.4.0-93-generic linux-image-extra-4.4.0-96-generic linux-image-extra-4.4.0-97-generic linux-image-extra-4.4.0-98-generic
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  fonts-lyx gdal-bin grass-core grass-doc libaec0 libarmadillo6 libarpack2 libdap17v5 libdapclient6v5 libepsilon1 libfcgi0ldbl libfreexl1 libgdal20
+  libgeos-3.5.1 libgeos-c1v5 libgeotiff2 libgl1-mesa-dev libgl1-mesa-glx libgl1-mesa-glx:i386 libglade2-0 libglapi-mesa libglapi-mesa:i386
+  libgles2-mesa libglu1-mesa-dev libgsl2 libhdf4-0-alt libhdf5-10 libjs-jquery-ui libjs-leaflet libkmlbase1 libkmldom1 libkmlengine1 liblas-c3
+  liblas3 liblwgeom-2.4-0 liblwgeom-dev libminizip1 libmysqlclient20 libnetcdf11 libogdi3.2 libproj9 libqca2 libqca2-plugin-ossl libqca2-plugins
+  libqgis-analysis2.14.11 libqgis-app2.14.11 libqgis-core2.14.11 libqgis-customwidgets libqgis-gui2.14.11 libqgis-networkanalysis2.14.11
+  libqgis-server2.14.11 libqgisgrass7-2.14.11 libqgispython2.14.11 libqhull7 libqscintilla2-12v5 libqscintilla2-l10n libqt4-designer libqt4-dev
+  libqt4-dev-bin libqt4-help libqt4-opengl libqt4-opengl-dev libqt4-qt3support libqt4-scripttools libqt4-svg libqt4-test libqtassistantclient4
+  libqtwebkit4 libqwt6abi1 libspatialindex4v5 libspatialite7 libsuperlu4 libsz2 liburiparser1 libxerces-c3.1 mesa-common-dev odbcinst
+  odbcinst1debian2 proj-bin proj-data python-chardet python-cycler python-dateutil python-gdal python-glade2 python-httplib2 python-imaging
+  python-jinja2 python-markupsafe python-matplotlib python-matplotlib-data python-pil python-pygments python-pyparsing python-pyspatialite
+  python-qgis-common python-qscintilla2 python-qt4 python-qt4-sql python-shapely python-sip python-six python-tk python-tz python-yaml qgis-common
+  qgis-plugin-grass-common qgis-provider-grass qgis-providers qgis-providers-common qt4-designer qt4-linguist-tools qt4-qmake ttf-bitstream-vera
+Suggested packages:
+  libgdal-grass grass-dev grass-gui e00compr avce00 gnuplot gpsbabel gpstrans python-rpy2 python-termcolor grass grass-dev-doc geotiff-bin
+  libgeotiff-epsg gsl-ref-psdoc | gsl-doc-pdf | gsl-doc-info | gsl-ref-html libhdf4-doc libhdf4-alt-dev hdf4-tools libnetcdf4 libjs-jquery-ui-docs
+  ogdi-bin firebird-dev libmysqlclient-dev libsqlite0-dev libsqlite3-dev qt4-dev-tools qt4-doc unixodbc-dev python-gtk2-doc python-jinja2-doc
+  inkscape ipython python-cairocffi python-configobj python-excelerator python-gobject python-matplotlib-doc python-nose python-scipy python-tornado
+  python-traits python-wxgtk3.0 ttf-staypuft python-pil-doc python-pil-dbg python-qt4-dbg python-shapely-doc tix python-tk-dbg
+The following NEW packages will be installed:
+  fonts-lyx gdal-bin grass-core grass-doc libaec0 libarmadillo6 libarpack2 libdap17v5 libdapclient6v5 libepsilon1 libfcgi0ldbl libfreexl1 libgdal20
+  libgeos-3.5.1 libgeos-c1v5 libgeotiff2 libgl1-mesa-dev libglade2-0 libglu1-mesa-dev libgsl2 libhdf4-0-alt libhdf5-10 libjs-jquery-ui libjs-leaflet
+  libkmlbase1 libkmldom1 libkmlengine1 liblas-c3 liblas3 liblwgeom-2.4-0 liblwgeom-dev libminizip1 libmysqlclient20 libnetcdf11 libogdi3.2 libproj9
+  libqca2 libqca2-plugin-ossl libqca2-plugins libqgis-analysis2.14.11 libqgis-app2.14.11 libqgis-core2.14.11 libqgis-customwidgets
+  libqgis-gui2.14.11 libqgis-networkanalysis2.14.11 libqgis-server2.14.11 libqgisgrass7-2.14.11 libqgispython2.14.11 libqhull7 libqscintilla2-12v5
+  libqscintilla2-l10n libqt4-designer libqt4-dev libqt4-dev-bin libqt4-help libqt4-opengl libqt4-opengl-dev libqt4-qt3support libqt4-scripttools
+  libqt4-svg libqt4-test libqtassistantclient4 libqtwebkit4 libqwt6abi1 libspatialindex4v5 libspatialite7 libsuperlu4 libsz2 liburiparser1
+  libxerces-c3.1 mesa-common-dev odbcinst odbcinst1debian2 proj-bin proj-data python-chardet python-cycler python-dateutil python-gdal python-glade2
+  python-httplib2 python-imaging python-jinja2 python-markupsafe python-matplotlib python-matplotlib-data python-pil python-pygments
+  python-pyparsing python-pyspatialite python-qgis python-qgis-common python-qscintilla2 python-qt4 python-qt4-sql python-shapely python-sip
+  python-six python-tk python-tz python-yaml qgis qgis-common qgis-plugin-grass qgis-plugin-grass-common qgis-provider-grass qgis-providers
+  qgis-providers-common qt4-designer qt4-linguist-tools qt4-qmake ttf-bitstream-vera
+The following packages will be upgraded:
+  libgl1-mesa-glx libgl1-mesa-glx:i386 libglapi-mesa libglapi-mesa:i386 libgles2-mesa
+5 upgraded, 112 newly installed, 0 to remove and 334 not upgraded.
+Need to get 134 MB of archives.
+After this operation, 466 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libglade2-0 amd64 1:2.6.4-2 [44.6 kB]
+Get:2 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libgeos-3.5.1 amd64 3.5.1-3~xenial0 [481 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libsuperlu4 amd64 4.3+dfsg-3 [158 kB]           
+Get:4 http://archive.ubuntu.com/ubuntu xenial/universe amd64 fonts-lyx all 2.1.4-2 [161 kB]                     
+Get:5 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libarpack2 amd64 3.3.0-1build2 [88.2 kB]                     
+Get:6 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libarmadillo6 amd64 1:6.500.5+dfsg-1 [75.2 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libdap17v5 amd64 3.15.1-7 [412 kB]
+Get:8 http://apt.postgresql.org/pub/repos/apt xenial-pgdg/main amd64 liblwgeom-2.4-0 amd64 2.4.3+dfsg-2.pgdg16.04+1 [225 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libdapclient6v5 amd64 3.15.1-7 [85.3 kB]        
+Get:10 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libepsilon1 amd64 0.9.2-3ubuntu1 [41.0 kB]            
+Get:11 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libfreexl1 amd64 1.0.2-1 [33.6 kB]                
+Get:12 http://archive.ubuntu.com/ubuntu xenial/universe amd64 proj-data all 4.9.2-2 [4,004 kB]                  
+Get:13 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libproj9 amd64 4.9.2-2 [143 kB]                     
+Get:14 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libgeotiff2 amd64 1.4.1-2 [55.9 kB]            
+Get:15 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libhdf4-0-alt amd64 4.2.10-3.2 [264 kB]              
+Get:16 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libaec0 amd64 0.3.2-1 [18.0 kB]                     
+Get:17 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libsz2 amd64 0.3.2-1 [5,048 B]                   
+Get:18 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libhdf5-10 amd64 1.8.16+docs-4ubuntu1 [995 kB]  
+Get:19 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libminizip1 amd64 1.1-8 [20.3 kB]                
+Get:20 http://archive.ubuntu.com/ubuntu xenial/universe amd64 liburiparser1 amd64 0.8.4-1 [38.0 kB]                
+Get:21 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libkmlbase1 amd64 1.3.0-1 [43.9 kB]                   
+Get:22 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libkmldom1 amd64 1.3.0-1 [175 kB]                   
+Get:23 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libkmlengine1 amd64 1.3.0-1 [77.1 kB]            
+Get:24 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libmysqlclient20 amd64 5.7.21-0ubuntu0.16.04.1 [809 kB]
+Get:25 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libnetcdf11 amd64 1:4.4.0-2 [286 kB]                   
+Get:26 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libogdi3.2 amd64 3.2.0~beta2-7.1build1 [212 kB]   
+Get:27 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqhull7 amd64 2015.2-1 [152 kB]                
+Get:28 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libspatialite7 amd64 4.3.0a-5 [1,222 kB]        
+Get:29 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libxerces-c3.1 amd64 3.1.3+debian-1 [842 kB]              
+Get:30 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libgeos-c1v5 amd64 3.5.1-3~xenial0 [58.0 kB]             
+Get:31 http://archive.ubuntu.com/ubuntu xenial/main amd64 odbcinst amd64 2.3.1-4.1 [13.1 kB]                                                         
+Get:32 http://archive.ubuntu.com/ubuntu xenial/main amd64 odbcinst1debian2 amd64 2.3.1-4.1 [41.1 kB]                                                 
+Get:33 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgles2-mesa amd64 17.2.8-0ubuntu0~16.04.1 [13.4 kB]                              
+Get:34 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libgl1-mesa-glx i386 17.2.8-0ubuntu0~16.04.1 [138 kB]                               
+Get:35 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-glx amd64 17.2.8-0ubuntu0~16.04.1 [130 kB]                             
+Get:36 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libglapi-mesa amd64 17.2.8-0ubuntu0~16.04.1 [22.8 kB]                              
+Get:37 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libglapi-mesa i386 17.2.8-0ubuntu0~16.04.1 [22.9 kB]                                
+Get:38 http://archive.ubuntu.com/ubuntu xenial/main amd64 libfcgi0ldbl amd64 2.4.0-8.3 [161 kB]                                                      
+Get:39 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mesa-common-dev amd64 17.2.8-0ubuntu0~16.04.1 [525 kB]                             
+Get:40 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-dev amd64 17.2.8-0ubuntu0~16.04.1 [4,456 B]                            
+Get:41 http://archive.ubuntu.com/ubuntu xenial/main amd64 libglu1-mesa-dev amd64 9.0.0-2.1 [202 kB]                                                  
+Get:42 http://archive.ubuntu.com/ubuntu xenial/main amd64 libgsl2 amd64 2.1+dfsg-2 [840 kB]                                                          
+Get:43 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libgdal20 amd64 2.1.3+dfsg-1~xenial2 [5,017 kB]                               
+Get:44 http://apt.postgresql.org/pub/repos/apt xenial-pgdg/main amd64 liblwgeom-dev amd64 2.4.3+dfsg-2.pgdg16.04+1 [267 kB]                          
+Get:45 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libjs-jquery-ui all 1.10.1+dfsg-1 [458 kB]                                             
+Get:46 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqca2 amd64 2.1.1-2ubuntu1 [305 kB]                                                  
+Get:47 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqca2-plugins amd64 2.1.1-2ubuntu1 [186 kB]                                          
+Get:48 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqca2-plugin-ossl amd64 2.1.1-2ubuntu1 [4,278 B]                                     
+Get:49 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-svg amd64 4:4.8.7+dfsg-5ubuntu2 [138 kB]                                            
+Get:50 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libspatialindex4v5 amd64 1.8.5-3 [220 kB]                                              
+Get:51 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqscintilla2-l10n all 2.9.1+dfsg-4build1 [38.3 kB]                                   
+Get:52 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqscintilla2-12v5 amd64 2.9.1+dfsg-4build1 [810 kB]                                  
+Get:53 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-opengl amd64 4:4.8.7+dfsg-5ubuntu2 [301 kB]                                         
+Get:54 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqwt6abi1 amd64 6.1.2-5 [407 kB]                                                     
+Get:55 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-designer amd64 4:4.8.7+dfsg-5ubuntu2 [3,631 kB]                                     
+Get:56 http://archive.ubuntu.com/ubuntu xenial/main amd64 qt4-designer amd64 4:4.8.7+dfsg-5ubuntu2 [349 kB]                                          
+Get:57 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-qt3support amd64 4:4.8.7+dfsg-5ubuntu2 [1,051 kB]                                   
+Get:58 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-dev-bin amd64 4:4.8.7+dfsg-5ubuntu2 [1,635 kB]                                      
+Get:59 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-help amd64 4:4.8.7+dfsg-5ubuntu2 [207 kB]                                           
+Get:60 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-scripttools amd64 4:4.8.7+dfsg-5ubuntu2 [224 kB]                                    
+Get:61 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-test amd64 4:4.8.7+dfsg-5ubuntu2 [61.1 kB]                                          
+Get:62 http://archive.ubuntu.com/ubuntu xenial/main amd64 qt4-linguist-tools amd64 4:4.8.7+dfsg-5ubuntu2 [848 kB]                                    
+Get:63 http://archive.ubuntu.com/ubuntu xenial/main amd64 qt4-qmake amd64 4:4.8.7+dfsg-5ubuntu2 [1,293 kB]                                           
+Get:64 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-dev amd64 4:4.8.7+dfsg-5ubuntu2 [851 kB]                                            
+Get:65 http://archive.ubuntu.com/ubuntu xenial/main amd64 libqt4-opengl-dev amd64 4:4.8.7+dfsg-5ubuntu2 [22.9 kB]                                    
+Get:66 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqtassistantclient4 amd64 4.6.3-7 [12.8 kB]                                          
+Get:67 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libqtwebkit4 amd64 2.3.2-0ubuntu11 [9,034 kB]                                          
+Get:68 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-chardet all 2.3.0-2 [96.3 kB]                                                       
+Get:69 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-six all 1.10.0-3 [10.9 kB]                                                          
+Get:70 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-cycler all 0.9.0-1 [5,426 B]                                                    
+Get:71 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-dateutil all 2.4.2-1 [42.5 kB]                                                      
+Get:72 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-glade2 amd64 2.24.0-4ubuntu1 [9,078 B]                                              
+Get:73 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-httplib2 all 0.9.1+dfsg-1 [34.2 kB]                                                 
+Get:74 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-pil amd64 3.1.2-0ubuntu1.1 [312 kB]                                         
+Get:75 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-imaging all 3.1.2-0ubuntu1.1 [4,596 B]                                  
+Get:76 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-markupsafe amd64 0.23-2build2 [15.5 kB]                                             
+Get:77 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-jinja2 all 2.8-1 [109 kB]                                                           
+Get:78 http://archive.ubuntu.com/ubuntu xenial/universe amd64 ttf-bitstream-vera all 1.10-8 [352 kB]                                                 
+Get:79 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-matplotlib-data all 1.5.1-1ubuntu1 [2,414 kB]                                   
+Get:80 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-pyparsing all 2.0.3+dfsg1-1ubuntu0.1 [35.4 kB]                              
+Get:81 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-tz all 2014.10~dfsg1-0ubuntu2 [31.5 kB]                                             
+Get:82 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-matplotlib amd64 1.5.1-1ubuntu1 [3,888 kB]                                      
+Get:83 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-pygments all 2.1+dfsg-1 [522 kB]                                                    
+Get:84 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-shapely amd64 1.5.13-1build1 [146 kB]                                           
+Get:85 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-sip amd64 4.17+dfsg-1build1 [71.1 kB]                                           
+Get:86 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-qt4 amd64 4.11.4+dfsg-1build4 [2,328 kB]                                        
+Get:87 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-qscintilla2 amd64 2.9.1+dfsg-4build1 [181 kB]                                   
+Get:88 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-qt4-sql amd64 4.11.4+dfsg-1build4 [78.0 kB]                                     
+Get:89 http://archive.ubuntu.com/ubuntu xenial/universe amd64 python-pyspatialite amd64 3.0.1-10 [30.1 kB]                                           
+Get:90 http://archive.ubuntu.com/ubuntu xenial/main amd64 python-yaml amd64 3.11-3build1 [105 kB]                                                    
+Get:91 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-tk amd64 2.7.12-1~16.04 [26.3 kB]                                           
+Get:92 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libjs-leaflet all 0.7.3~dfsg-1 [90.9 kB]                                               
+Get:93 http://archive.ubuntu.com/ubuntu xenial/universe amd64 proj-bin amd64 4.9.2-2 [31.3 kB]                                                       
+Get:94 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 gdal-bin amd64 2.1.3+dfsg-1~xenial2 [335 kB]                                  
+Get:95 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 grass-doc all 7.2.1-1~xenial1 [24.3 MB]                                       
+Get:96 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 liblas3 amd64 1.8.1-3~xenial1 [268 kB]                                        
+Get:97 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 liblas-c3 amd64 1.8.1-3~xenial1 [68.7 kB]                                     
+Get:98 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 grass-core amd64 7.2.1-1~xenial1 [5,433 kB]                                   
+Get:99 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgis-core2.14.11 amd64 2.14.11+dfsg-1~xenial4 [3,928 kB]                   
+Get:100 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgis-analysis2.14.11 amd64 2.14.11+dfsg-1~xenial4 [1,328 kB]              
+Get:101 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgis-gui2.14.11 amd64 2.14.11+dfsg-1~xenial4 [2,943 kB]                   
+Get:102 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgis-app2.14.11 amd64 2.14.11+dfsg-1~xenial4 [3,118 kB]                   
+Get:103 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgis-customwidgets amd64 2.14.11+dfsg-1~xenial4 [2,705 kB]                
+Get:104 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgis-networkanalysis2.14.11 amd64 2.14.11+dfsg-1~xenial4 [1,190 kB]       
+Get:105 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgis-server2.14.11 amd64 2.14.11+dfsg-1~xenial4 [1,536 kB]                
+Get:106 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgisgrass7-2.14.11 amd64 2.14.11+dfsg-1~xenial4 [1,363 kB]                
+Get:107 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 libqgispython2.14.11 amd64 2.14.11+dfsg-1~xenial4 [1,185 kB]                 
+Get:108 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 python-gdal amd64 2.1.3+dfsg-1~xenial2 [688 kB]                              
+Get:109 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 python-qgis-common all 2.14.11+dfsg-1~xenial4 [3,653 kB]                     
+Get:110 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 python-qgis amd64 2.14.11+dfsg-1~xenial4 [4,502 kB]                          
+Get:111 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 qgis-providers-common all 2.14.11+dfsg-1~xenial4 [1,931 kB]                  
+Get:112 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 qgis-providers amd64 2.14.11+dfsg-1~xenial4 [2,328 kB]                       
+Get:113 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 qgis-common all 2.14.11+dfsg-1~xenial4 [9,810 kB]                            
+Get:114 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 qgis amd64 2.14.11+dfsg-1~xenial4 [4,785 kB]                                 
+Get:115 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 qgis-plugin-grass-common all 2.14.11+dfsg-1~xenial4 [1,647 kB]               
+Get:116 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 qgis-provider-grass amd64 2.14.11+dfsg-1~xenial4 [1,230 kB]                  
+Get:117 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu xenial/main amd64 qgis-plugin-grass amd64 2.14.11+dfsg-1~xenial4 [1,731 kB]                    
+Fetched 134 MB in 7min 6s (313 kB/s)                                                                                                                 
+Extracting templates from packages: 100%
+Selecting previously unselected package libglade2-0:amd64.
+(Reading database ... 677148 files and directories currently installed.)
+Preparing to unpack .../libglade2-0_1%3a2.6.4-2_amd64.deb ...
+Unpacking libglade2-0:amd64 (1:2.6.4-2) ...
+Selecting previously unselected package libsuperlu4:amd64.
+Preparing to unpack .../libsuperlu4_4.3+dfsg-3_amd64.deb ...
+Unpacking libsuperlu4:amd64 (4.3+dfsg-3) ...
+Selecting previously unselected package fonts-lyx.
+Preparing to unpack .../fonts-lyx_2.1.4-2_all.deb ...
+Unpacking fonts-lyx (2.1.4-2) ...
+Selecting previously unselected package libarpack2.
+Preparing to unpack .../libarpack2_3.3.0-1build2_amd64.deb ...
+Unpacking libarpack2 (3.3.0-1build2) ...
+Selecting previously unselected package libarmadillo6.
+Preparing to unpack .../libarmadillo6_1%3a6.500.5+dfsg-1_amd64.deb ...
+Unpacking libarmadillo6 (1:6.500.5+dfsg-1) ...
+Selecting previously unselected package libdap17v5:amd64.
+Preparing to unpack .../libdap17v5_3.15.1-7_amd64.deb ...
+Unpacking libdap17v5:amd64 (3.15.1-7) ...
+Selecting previously unselected package libdapclient6v5:amd64.
+Preparing to unpack .../libdapclient6v5_3.15.1-7_amd64.deb ...
+Unpacking libdapclient6v5:amd64 (3.15.1-7) ...
+Selecting previously unselected package libepsilon1:amd64.
+Preparing to unpack .../libepsilon1_0.9.2-3ubuntu1_amd64.deb ...
+Unpacking libepsilon1:amd64 (0.9.2-3ubuntu1) ...
+Selecting previously unselected package libfreexl1:amd64.
+Preparing to unpack .../libfreexl1_1.0.2-1_amd64.deb ...
+Unpacking libfreexl1:amd64 (1.0.2-1) ...
+Selecting previously unselected package libgeos-3.5.1.
+Preparing to unpack .../libgeos-3.5.1_3.5.1-3~xenial0_amd64.deb ...
+Unpacking libgeos-3.5.1 (3.5.1-3~xenial0) ...
+Selecting previously unselected package libgeos-c1v5.
+Preparing to unpack .../libgeos-c1v5_3.5.1-3~xenial0_amd64.deb ...
+Unpacking libgeos-c1v5 (3.5.1-3~xenial0) ...
+Selecting previously unselected package proj-data.
+Preparing to unpack .../proj-data_4.9.2-2_all.deb ...
+Unpacking proj-data (4.9.2-2) ...
+Selecting previously unselected package libproj9.
+Preparing to unpack .../libproj9_4.9.2-2_amd64.deb ...
+Unpacking libproj9 (4.9.2-2) ...
+Selecting previously unselected package libgeotiff2:amd64.
+Preparing to unpack .../libgeotiff2_1.4.1-2_amd64.deb ...
+Unpacking libgeotiff2:amd64 (1.4.1-2) ...
+Selecting previously unselected package libhdf4-0-alt.
+Preparing to unpack .../libhdf4-0-alt_4.2.10-3.2_amd64.deb ...
+Unpacking libhdf4-0-alt (4.2.10-3.2) ...
+Selecting previously unselected package libaec0:amd64.
+Preparing to unpack .../libaec0_0.3.2-1_amd64.deb ...
+Unpacking libaec0:amd64 (0.3.2-1) ...
+Selecting previously unselected package libsz2:amd64.
+Preparing to unpack .../libsz2_0.3.2-1_amd64.deb ...
+Unpacking libsz2:amd64 (0.3.2-1) ...
+Selecting previously unselected package libhdf5-10:amd64.
+Preparing to unpack .../libhdf5-10_1.8.16+docs-4ubuntu1_amd64.deb ...
+Unpacking libhdf5-10:amd64 (1.8.16+docs-4ubuntu1) ...
+Selecting previously unselected package libminizip1:amd64.
+Preparing to unpack .../libminizip1_1.1-8_amd64.deb ...
+Unpacking libminizip1:amd64 (1.1-8) ...
+Selecting previously unselected package liburiparser1:amd64.
+Preparing to unpack .../liburiparser1_0.8.4-1_amd64.deb ...
+Unpacking liburiparser1:amd64 (0.8.4-1) ...
+Selecting previously unselected package libkmlbase1:amd64.
+Preparing to unpack .../libkmlbase1_1.3.0-1_amd64.deb ...
+Unpacking libkmlbase1:amd64 (1.3.0-1) ...
+Selecting previously unselected package libkmldom1:amd64.
+Preparing to unpack .../libkmldom1_1.3.0-1_amd64.deb ...
+Unpacking libkmldom1:amd64 (1.3.0-1) ...
+Selecting previously unselected package libkmlengine1:amd64.
+Preparing to unpack .../libkmlengine1_1.3.0-1_amd64.deb ...
+Unpacking libkmlengine1:amd64 (1.3.0-1) ...
+Selecting previously unselected package libmysqlclient20:amd64.
+Preparing to unpack .../libmysqlclient20_5.7.21-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking libmysqlclient20:amd64 (5.7.21-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libnetcdf11.
+Preparing to unpack .../libnetcdf11_1%3a4.4.0-2_amd64.deb ...
+Unpacking libnetcdf11 (1:4.4.0-2) ...
+Selecting previously unselected package libogdi3.2.
+Preparing to unpack .../libogdi3.2_3.2.0~beta2-7.1build1_amd64.deb ...
+Unpacking libogdi3.2 (3.2.0~beta2-7.1build1) ...
+Selecting previously unselected package libqhull7:amd64.
+Preparing to unpack .../libqhull7_2015.2-1_amd64.deb ...
+Unpacking libqhull7:amd64 (2015.2-1) ...
+Selecting previously unselected package libspatialite7:amd64.
+Preparing to unpack .../libspatialite7_4.3.0a-5_amd64.deb ...
+Unpacking libspatialite7:amd64 (4.3.0a-5) ...
+Selecting previously unselected package libxerces-c3.1:amd64.
+Preparing to unpack .../libxerces-c3.1_3.1.3+debian-1_amd64.deb ...
+Unpacking libxerces-c3.1:amd64 (3.1.3+debian-1) ...
+Selecting previously unselected package odbcinst.
+Preparing to unpack .../odbcinst_2.3.1-4.1_amd64.deb ...
+Unpacking odbcinst (2.3.1-4.1) ...
+Selecting previously unselected package odbcinst1debian2:amd64.
+Preparing to unpack .../odbcinst1debian2_2.3.1-4.1_amd64.deb ...
+Unpacking odbcinst1debian2:amd64 (2.3.1-4.1) ...
+Selecting previously unselected package libgdal20.
+Preparing to unpack .../libgdal20_2.1.3+dfsg-1~xenial2_amd64.deb ...
+Unpacking libgdal20 (2.1.3+dfsg-1~xenial2) ...
+Selecting previously unselected package gdal-bin.
+Preparing to unpack .../gdal-bin_2.1.3+dfsg-1~xenial2_amd64.deb ...
+Unpacking gdal-bin (2.1.3+dfsg-1~xenial2) ...
+Selecting previously unselected package grass-doc.
+Preparing to unpack .../grass-doc_7.2.1-1~xenial1_all.deb ...
+Unpacking grass-doc (7.2.1-1~xenial1) ...
+Preparing to unpack .../libgles2-mesa_17.2.8-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking libgles2-mesa:amd64 (17.2.8-0ubuntu0~16.04.1) over (17.0.7-0ubuntu0.16.04.2) ...
+Preparing to unpack .../libgl1-mesa-glx_17.2.8-0ubuntu0~16.04.1_amd64.deb ...
+De-configuring libgl1-mesa-glx:i386 (17.0.7-0ubuntu0.16.04.2) ...
+Unpacking libgl1-mesa-glx:amd64 (17.2.8-0ubuntu0~16.04.1) over (17.0.7-0ubuntu0.16.04.2) ...
+Preparing to unpack .../libgl1-mesa-glx_17.2.8-0ubuntu0~16.04.1_i386.deb ...
+Unpacking libgl1-mesa-glx:i386 (17.2.8-0ubuntu0~16.04.1) over (17.0.7-0ubuntu0.16.04.2) ...
+Preparing to unpack .../libglapi-mesa_17.2.8-0ubuntu0~16.04.1_i386.deb ...
+De-configuring libglapi-mesa:amd64 (17.0.7-0ubuntu0.16.04.2) ...
+Unpacking libglapi-mesa:i386 (17.2.8-0ubuntu0~16.04.1) over (17.0.7-0ubuntu0.16.04.2) ...
+Preparing to unpack .../libglapi-mesa_17.2.8-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking libglapi-mesa:amd64 (17.2.8-0ubuntu0~16.04.1) over (17.0.7-0ubuntu0.16.04.2) ...
+Selecting previously unselected package liblas3.
+Preparing to unpack .../liblas3_1.8.1-3~xenial1_amd64.deb ...
+Unpacking liblas3 (1.8.1-3~xenial1) ...
+Selecting previously unselected package liblas-c3.
+Preparing to unpack .../liblas-c3_1.8.1-3~xenial1_amd64.deb ...
+Unpacking liblas-c3 (1.8.1-3~xenial1) ...
+Selecting previously unselected package grass-core.
+Preparing to unpack .../grass-core_7.2.1-1~xenial1_amd64.deb ...
+Unpacking grass-core (7.2.1-1~xenial1) ...
+Selecting previously unselected package libfcgi0ldbl.
+Preparing to unpack .../libfcgi0ldbl_2.4.0-8.3_amd64.deb ...
+Unpacking libfcgi0ldbl (2.4.0-8.3) ...
+Selecting previously unselected package mesa-common-dev:amd64.
+Preparing to unpack .../mesa-common-dev_17.2.8-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking mesa-common-dev:amd64 (17.2.8-0ubuntu0~16.04.1) ...
+Selecting previously unselected package libgl1-mesa-dev:amd64.
+Preparing to unpack .../libgl1-mesa-dev_17.2.8-0ubuntu0~16.04.1_amd64.deb ...
+Unpacking libgl1-mesa-dev:amd64 (17.2.8-0ubuntu0~16.04.1) ...
+Selecting previously unselected package libglu1-mesa-dev:amd64.
+Preparing to unpack .../libglu1-mesa-dev_9.0.0-2.1_amd64.deb ...
+Unpacking libglu1-mesa-dev:amd64 (9.0.0-2.1) ...
+Selecting previously unselected package libgsl2:amd64.
+Preparing to unpack .../libgsl2_2.1+dfsg-2_amd64.deb ...
+Unpacking libgsl2:amd64 (2.1+dfsg-2) ...
+Selecting previously unselected package libjs-jquery-ui.
+Preparing to unpack .../libjs-jquery-ui_1.10.1+dfsg-1_all.deb ...
+Unpacking libjs-jquery-ui (1.10.1+dfsg-1) ...
+Selecting previously unselected package liblwgeom-2.4-0.
+Preparing to unpack .../liblwgeom-2.4-0_2.4.3+dfsg-2.pgdg16.04+1_amd64.deb ...
+Unpacking liblwgeom-2.4-0 (2.4.3+dfsg-2.pgdg16.04+1) ...
+Selecting previously unselected package liblwgeom-dev.
+Preparing to unpack .../liblwgeom-dev_2.4.3+dfsg-2.pgdg16.04+1_amd64.deb ...
+Unpacking liblwgeom-dev (2.4.3+dfsg-2.pgdg16.04+1) ...
+Selecting previously unselected package libqca2:amd64.
+Preparing to unpack .../libqca2_2.1.1-2ubuntu1_amd64.deb ...
+Unpacking libqca2:amd64 (2.1.1-2ubuntu1) ...
+Selecting previously unselected package libqca2-plugins:amd64.
+Preparing to unpack .../libqca2-plugins_2.1.1-2ubuntu1_amd64.deb ...
+Unpacking libqca2-plugins:amd64 (2.1.1-2ubuntu1) ...
+Selecting previously unselected package libqca2-plugin-ossl:amd64.
+Preparing to unpack .../libqca2-plugin-ossl_2.1.1-2ubuntu1_amd64.deb ...
+Unpacking libqca2-plugin-ossl:amd64 (2.1.1-2ubuntu1) ...
+Selecting previously unselected package libqt4-svg:amd64.
+Preparing to unpack .../libqt4-svg_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-svg:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libspatialindex4v5:amd64.
+Preparing to unpack .../libspatialindex4v5_1.8.5-3_amd64.deb ...
+Unpacking libspatialindex4v5:amd64 (1.8.5-3) ...
+Selecting previously unselected package libqgis-core2.14.11.
+Preparing to unpack .../libqgis-core2.14.11_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgis-core2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqgis-analysis2.14.11.
+Preparing to unpack .../libqgis-analysis2.14.11_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgis-analysis2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqscintilla2-l10n.
+Preparing to unpack .../libqscintilla2-l10n_2.9.1+dfsg-4build1_all.deb ...
+Unpacking libqscintilla2-l10n (2.9.1+dfsg-4build1) ...
+Selecting previously unselected package libqscintilla2-12v5.
+Preparing to unpack .../libqscintilla2-12v5_2.9.1+dfsg-4build1_amd64.deb ...
+Unpacking libqscintilla2-12v5 (2.9.1+dfsg-4build1) ...
+Selecting previously unselected package libqt4-opengl:amd64.
+Preparing to unpack .../libqt4-opengl_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-opengl:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqwt6abi1.
+Preparing to unpack .../libqwt6abi1_6.1.2-5_amd64.deb ...
+Unpacking libqwt6abi1 (6.1.2-5) ...
+Selecting previously unselected package libqgis-gui2.14.11.
+Preparing to unpack .../libqgis-gui2.14.11_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgis-gui2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqgis-app2.14.11.
+Preparing to unpack .../libqgis-app2.14.11_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgis-app2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqt4-designer:amd64.
+Preparing to unpack .../libqt4-designer_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-designer:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package qt4-designer.
+Preparing to unpack .../qt4-designer_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking qt4-designer (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqgis-customwidgets.
+Preparing to unpack .../libqgis-customwidgets_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgis-customwidgets (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqgis-networkanalysis2.14.11.
+Preparing to unpack .../libqgis-networkanalysis2.14.11_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgis-networkanalysis2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqgis-server2.14.11.
+Preparing to unpack .../libqgis-server2.14.11_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgis-server2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqgisgrass7-2.14.11.
+Preparing to unpack .../libqgisgrass7-2.14.11_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgisgrass7-2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqgispython2.14.11.
+Preparing to unpack .../libqgispython2.14.11_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking libqgispython2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libqt4-qt3support:amd64.
+Preparing to unpack .../libqt4-qt3support_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-qt3support:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqt4-dev-bin.
+Preparing to unpack .../libqt4-dev-bin_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-dev-bin (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqt4-help:amd64.
+Preparing to unpack .../libqt4-help_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-help:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqt4-scripttools:amd64.
+Preparing to unpack .../libqt4-scripttools_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-scripttools:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqt4-test:amd64.
+Preparing to unpack .../libqt4-test_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-test:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package qt4-linguist-tools.
+Preparing to unpack .../qt4-linguist-tools_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking qt4-linguist-tools (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package qt4-qmake.
+Preparing to unpack .../qt4-qmake_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking qt4-qmake (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqt4-dev.
+Preparing to unpack .../libqt4-dev_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-dev (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqt4-opengl-dev.
+Preparing to unpack .../libqt4-opengl-dev_4%3a4.8.7+dfsg-5ubuntu2_amd64.deb ...
+Unpacking libqt4-opengl-dev (4:4.8.7+dfsg-5ubuntu2) ...
+Selecting previously unselected package libqtassistantclient4:amd64.
+Preparing to unpack .../libqtassistantclient4_4.6.3-7_amd64.deb ...
+Unpacking libqtassistantclient4:amd64 (4.6.3-7) ...
+Selecting previously unselected package libqtwebkit4:amd64.
+Preparing to unpack .../libqtwebkit4_2.3.2-0ubuntu11_amd64.deb ...
+Unpacking libqtwebkit4:amd64 (2.3.2-0ubuntu11) ...
+Selecting previously unselected package python-chardet.
+Preparing to unpack .../python-chardet_2.3.0-2_all.deb ...
+Unpacking python-chardet (2.3.0-2) ...
+Selecting previously unselected package python-six.
+Preparing to unpack .../python-six_1.10.0-3_all.deb ...
+Unpacking python-six (1.10.0-3) ...
+Selecting previously unselected package python-cycler.
+Preparing to unpack .../python-cycler_0.9.0-1_all.deb ...
+Unpacking python-cycler (0.9.0-1) ...
+Selecting previously unselected package python-dateutil.
+Preparing to unpack .../python-dateutil_2.4.2-1_all.deb ...
+Unpacking python-dateutil (2.4.2-1) ...
+Selecting previously unselected package python-gdal.
+Preparing to unpack .../python-gdal_2.1.3+dfsg-1~xenial2_amd64.deb ...
+Unpacking python-gdal (2.1.3+dfsg-1~xenial2) ...
+Selecting previously unselected package python-glade2.
+Preparing to unpack .../python-glade2_2.24.0-4ubuntu1_amd64.deb ...
+Unpacking python-glade2 (2.24.0-4ubuntu1) ...
+Selecting previously unselected package python-httplib2.
+Preparing to unpack .../python-httplib2_0.9.1+dfsg-1_all.deb ...
+Unpacking python-httplib2 (0.9.1+dfsg-1) ...
+Selecting previously unselected package python-pil:amd64.
+Preparing to unpack .../python-pil_3.1.2-0ubuntu1.1_amd64.deb ...
+Unpacking python-pil:amd64 (3.1.2-0ubuntu1.1) ...
+Selecting previously unselected package python-imaging.
+Preparing to unpack .../python-imaging_3.1.2-0ubuntu1.1_all.deb ...
+Unpacking python-imaging (3.1.2-0ubuntu1.1) ...
+Selecting previously unselected package python-markupsafe.
+Preparing to unpack .../python-markupsafe_0.23-2build2_amd64.deb ...
+Unpacking python-markupsafe (0.23-2build2) ...
+Selecting previously unselected package python-jinja2.
+Preparing to unpack .../python-jinja2_2.8-1_all.deb ...
+Unpacking python-jinja2 (2.8-1) ...
+Selecting previously unselected package ttf-bitstream-vera.
+Preparing to unpack .../ttf-bitstream-vera_1.10-8_all.deb ...
+Unpacking ttf-bitstream-vera (1.10-8) ...
+Selecting previously unselected package python-matplotlib-data.
+Preparing to unpack .../python-matplotlib-data_1.5.1-1ubuntu1_all.deb ...
+Unpacking python-matplotlib-data (1.5.1-1ubuntu1) ...
+Selecting previously unselected package python-pyparsing.
+Preparing to unpack .../python-pyparsing_2.0.3+dfsg1-1ubuntu0.1_all.deb ...
+Unpacking python-pyparsing (2.0.3+dfsg1-1ubuntu0.1) ...
+Selecting previously unselected package python-tz.
+Preparing to unpack .../python-tz_2014.10~dfsg1-0ubuntu2_all.deb ...
+Unpacking python-tz (2014.10~dfsg1-0ubuntu2) ...
+Selecting previously unselected package python-matplotlib.
+Preparing to unpack .../python-matplotlib_1.5.1-1ubuntu1_amd64.deb ...
+Unpacking python-matplotlib (1.5.1-1ubuntu1) ...
+Selecting previously unselected package python-pygments.
+Preparing to unpack .../python-pygments_2.1+dfsg-1_all.deb ...
+Unpacking python-pygments (2.1+dfsg-1) ...
+Selecting previously unselected package python-shapely.
+Preparing to unpack .../python-shapely_1.5.13-1build1_amd64.deb ...
+Unpacking python-shapely (1.5.13-1build1) ...
+Selecting previously unselected package python-qgis-common.
+Preparing to unpack .../python-qgis-common_2.14.11+dfsg-1~xenial4_all.deb ...
+Unpacking python-qgis-common (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package python-sip.
+Preparing to unpack .../python-sip_4.17+dfsg-1build1_amd64.deb ...
+Unpacking python-sip (4.17+dfsg-1build1) ...
+Selecting previously unselected package python-qt4.
+Preparing to unpack .../python-qt4_4.11.4+dfsg-1build4_amd64.deb ...
+Unpacking python-qt4 (4.11.4+dfsg-1build4) ...
+Selecting previously unselected package python-qscintilla2.
+Preparing to unpack .../python-qscintilla2_2.9.1+dfsg-4build1_amd64.deb ...
+Unpacking python-qscintilla2 (2.9.1+dfsg-4build1) ...
+Selecting previously unselected package python-qt4-sql.
+Preparing to unpack .../python-qt4-sql_4.11.4+dfsg-1build4_amd64.deb ...
+Unpacking python-qt4-sql (4.11.4+dfsg-1build4) ...
+Selecting previously unselected package python-pyspatialite.
+Preparing to unpack .../python-pyspatialite_3.0.1-10_amd64.deb ...
+Unpacking python-pyspatialite (3.0.1-10) ...
+Selecting previously unselected package python-yaml.
+Preparing to unpack .../python-yaml_3.11-3build1_amd64.deb ...
+Unpacking python-yaml (3.11-3build1) ...
+Selecting previously unselected package python-qgis.
+Preparing to unpack .../python-qgis_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking python-qgis (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package python-tk.
+Preparing to unpack .../python-tk_2.7.12-1~16.04_amd64.deb ...
+Unpacking python-tk (2.7.12-1~16.04) ...
+Selecting previously unselected package qgis-providers-common.
+Preparing to unpack .../qgis-providers-common_2.14.11+dfsg-1~xenial4_all.deb ...
+Unpacking qgis-providers-common (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package qgis-providers.
+Preparing to unpack .../qgis-providers_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking qgis-providers (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package libjs-leaflet.
+Preparing to unpack .../libjs-leaflet_0.7.3~dfsg-1_all.deb ...
+Unpacking libjs-leaflet (0.7.3~dfsg-1) ...
+Selecting previously unselected package qgis-common.
+Preparing to unpack .../qgis-common_2.14.11+dfsg-1~xenial4_all.deb ...
+Unpacking qgis-common (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package qgis.
+Preparing to unpack .../qgis_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking qgis (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package qgis-plugin-grass-common.
+Preparing to unpack .../qgis-plugin-grass-common_2.14.11+dfsg-1~xenial4_all.deb ...
+Unpacking qgis-plugin-grass-common (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package qgis-provider-grass.
+Preparing to unpack .../qgis-provider-grass_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking qgis-provider-grass (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package qgis-plugin-grass.
+Preparing to unpack .../qgis-plugin-grass_2.14.11+dfsg-1~xenial4_amd64.deb ...
+Unpacking qgis-plugin-grass (2.14.11+dfsg-1~xenial4) ...
+Selecting previously unselected package proj-bin.
+Preparing to unpack .../proj-bin_4.9.2-2_amd64.deb ...
+Unpacking proj-bin (4.9.2-2) ...
+Processing triggers for fontconfig (2.11.94-0ubuntu1.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 1 added doc-base file...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160824-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1) ...
+Processing triggers for shared-mime-info (1.5-2ubuntu0.1) ...
+Setting up libglade2-0:amd64 (1:2.6.4-2) ...
+Setting up libsuperlu4:amd64 (4.3+dfsg-3) ...
+Setting up fonts-lyx (2.1.4-2) ...
+Setting up libarpack2 (3.3.0-1build2) ...
+Setting up libarmadillo6 (1:6.500.5+dfsg-1) ...
+Setting up libdap17v5:amd64 (3.15.1-7) ...
+Setting up libdapclient6v5:amd64 (3.15.1-7) ...
+Setting up libepsilon1:amd64 (0.9.2-3ubuntu1) ...
+Setting up libfreexl1:amd64 (1.0.2-1) ...
+Setting up libgeos-3.5.1 (3.5.1-3~xenial0) ...
+Setting up libgeos-c1v5 (3.5.1-3~xenial0) ...
+Setting up proj-data (4.9.2-2) ...
+Setting up libproj9 (4.9.2-2) ...
+Setting up libgeotiff2:amd64 (1.4.1-2) ...
+Setting up libhdf4-0-alt (4.2.10-3.2) ...
+Setting up libaec0:amd64 (0.3.2-1) ...
+Setting up libsz2:amd64 (0.3.2-1) ...
+Setting up libhdf5-10:amd64 (1.8.16+docs-4ubuntu1) ...
+Setting up libminizip1:amd64 (1.1-8) ...
+Setting up liburiparser1:amd64 (0.8.4-1) ...
+Setting up libkmlbase1:amd64 (1.3.0-1) ...
+Setting up libkmldom1:amd64 (1.3.0-1) ...
+Setting up libkmlengine1:amd64 (1.3.0-1) ...
+Setting up libmysqlclient20:amd64 (5.7.21-0ubuntu0.16.04.1) ...
+Setting up libnetcdf11 (1:4.4.0-2) ...
+Setting up libogdi3.2 (3.2.0~beta2-7.1build1) ...
+Setting up libqhull7:amd64 (2015.2-1) ...
+Setting up libspatialite7:amd64 (4.3.0a-5) ...
+Setting up libxerces-c3.1:amd64 (3.1.3+debian-1) ...
+Setting up grass-doc (7.2.1-1~xenial1) ...
+Setting up libglapi-mesa:amd64 (17.2.8-0ubuntu0~16.04.1) ...
+Setting up libglapi-mesa:i386 (17.2.8-0ubuntu0~16.04.1) ...
+Setting up libgles2-mesa:amd64 (17.2.8-0ubuntu0~16.04.1) ...
+Setting up libgl1-mesa-glx:i386 (17.2.8-0ubuntu0~16.04.1) ...
+Setting up libgl1-mesa-glx:amd64 (17.2.8-0ubuntu0~16.04.1) ...
+Setting up libfcgi0ldbl (2.4.0-8.3) ...
+Setting up mesa-common-dev:amd64 (17.2.8-0ubuntu0~16.04.1) ...
+Setting up libgl1-mesa-dev:amd64 (17.2.8-0ubuntu0~16.04.1) ...
+Setting up libglu1-mesa-dev:amd64 (9.0.0-2.1) ...
+Setting up libgsl2:amd64 (2.1+dfsg-2) ...
+Setting up libjs-jquery-ui (1.10.1+dfsg-1) ...
+Setting up liblwgeom-2.4-0 (2.4.3+dfsg-2.pgdg16.04+1) ...
+Setting up liblwgeom-dev (2.4.3+dfsg-2.pgdg16.04+1) ...
+Setting up libqca2:amd64 (2.1.1-2ubuntu1) ...
+Setting up libqca2-plugins:amd64 (2.1.1-2ubuntu1) ...
+Setting up libqca2-plugin-ossl:amd64 (2.1.1-2ubuntu1) ...
+Setting up libqt4-svg:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libspatialindex4v5:amd64 (1.8.5-3) ...
+Setting up libqscintilla2-l10n (2.9.1+dfsg-4build1) ...
+Setting up libqscintilla2-12v5 (2.9.1+dfsg-4build1) ...
+Setting up libqt4-opengl:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqwt6abi1 (6.1.2-5) ...
+Setting up libqt4-designer:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up qt4-designer (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqt4-qt3support:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqt4-dev-bin (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqt4-help:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqt4-scripttools:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqt4-test:amd64 (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up qt4-linguist-tools (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up qt4-qmake (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqt4-dev (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqt4-opengl-dev (4:4.8.7+dfsg-5ubuntu2) ...
+Setting up libqtassistantclient4:amd64 (4.6.3-7) ...
+Setting up libqtwebkit4:amd64 (2.3.2-0ubuntu11) ...
+Setting up python-chardet (2.3.0-2) ...
+Setting up python-six (1.10.0-3) ...
+Setting up python-cycler (0.9.0-1) ...
+Setting up python-dateutil (2.4.2-1) ...
+Setting up python-glade2 (2.24.0-4ubuntu1) ...
+Setting up python-httplib2 (0.9.1+dfsg-1) ...
+Setting up python-pil:amd64 (3.1.2-0ubuntu1.1) ...
+Setting up python-imaging (3.1.2-0ubuntu1.1) ...
+Setting up python-markupsafe (0.23-2build2) ...
+Setting up python-jinja2 (2.8-1) ...
+Setting up ttf-bitstream-vera (1.10-8) ...
+Setting up python-matplotlib-data (1.5.1-1ubuntu1) ...
+Setting up python-pyparsing (2.0.3+dfsg1-1ubuntu0.1) ...
+Setting up python-tz (2014.10~dfsg1-0ubuntu2) ...
+Setting up python-matplotlib (1.5.1-1ubuntu1) ...
+Setting up python-pygments (2.1+dfsg-1) ...
+Setting up python-shapely (1.5.13-1build1) ...
+Setting up python-sip (4.17+dfsg-1build1) ...
+Setting up python-qt4 (4.11.4+dfsg-1build4) ...
+Setting up python-qscintilla2 (2.9.1+dfsg-4build1) ...
+Setting up python-qt4-sql (4.11.4+dfsg-1build4) ...
+Setting up python-pyspatialite (3.0.1-10) ...
+Setting up python-yaml (3.11-3build1) ...
+Setting up python-tk (2.7.12-1~16.04) ...
+Setting up qgis-providers-common (2.14.11+dfsg-1~xenial4) ...
+Setting up libjs-leaflet (0.7.3~dfsg-1) ...
+Setting up qgis-common (2.14.11+dfsg-1~xenial4) ...
+Setting up qgis-plugin-grass-common (2.14.11+dfsg-1~xenial4) ...
+Setting up proj-bin (4.9.2-2) ...
+Setting up odbcinst1debian2:amd64 (2.3.1-4.1) ...
+Setting up libgdal20 (2.1.3+dfsg-1~xenial2) ...
+Setting up gdal-bin (2.1.3+dfsg-1~xenial2) ...
+Setting up liblas3 (1.8.1-3~xenial1) ...
+Setting up liblas-c3 (1.8.1-3~xenial1) ...
+Setting up grass-core (7.2.1-1~xenial1) ...
+Setting up libqgis-core2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Setting up libqgis-analysis2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Setting up libqgis-gui2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Setting up libqgis-app2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Setting up libqgis-customwidgets (2.14.11+dfsg-1~xenial4) ...
+Setting up libqgis-networkanalysis2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Setting up libqgis-server2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Setting up libqgisgrass7-2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Setting up libqgispython2.14.11 (2.14.11+dfsg-1~xenial4) ...
+Setting up python-gdal (2.1.3+dfsg-1~xenial2) ...
+Setting up python-qgis-common (2.14.11+dfsg-1~xenial4) ...
+Setting up python-qgis (2.14.11+dfsg-1~xenial4) ...
+Setting up qgis-providers (2.14.11+dfsg-1~xenial4) ...
+Synchronizing CRS database with GDAL/PROJ definitions.
+Only 0 columns
+Load srs db from: /usr/share/qgis/resources/srs.db
+Loaded 497/498 from /usr/share/gdal/2.1/gcs.csv
+EPSG 6966: not imported
+EPSG 7082: not imported
+Loaded 4631/4709 from /usr/share/gdal/2.1/pcs.csv
+Loaded 182/183 from /usr/share/gdal/2.1/vertcs.csv
+Loaded 153/154 from /usr/share/gdal/2.1/compdcs.csv
+Loaded 148/149 from /usr/share/gdal/2.1/geoccs.csv
+Loading epsg.wkt
+Loading esri_extra.wkt
+5611 WKTs loaded
+CRS update (inserted:1112 updated:609 deleted:1 errors:0)
+1721 CRSs updated.
+Setting up qgis (2.14.11+dfsg-1~xenial4) ...
+Setting up qgis-provider-grass (2.14.11+dfsg-1~xenial4) ...
+Setting up qgis-plugin-grass (2.14.11+dfsg-1~xenial4) ...
+Setting up odbcinst (2.3.1-4.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a1_18/a1_______QGIS$ 
+
+
+
+
+
+
+
+
+
+
+
+
